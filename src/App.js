@@ -1,10 +1,11 @@
 import "./App.css";
+import Menubar from "./pages/Menubar/Menubar";
 
 function App() {
   return (
-    <div>
-      <h2>hello world</h2>
-    </div>
+    <>
+      <Menubar />
+    </>
   );
 }
 

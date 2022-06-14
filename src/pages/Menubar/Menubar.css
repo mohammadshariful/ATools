@@ -1,0 +1,26 @@
+.logo {
+  position: relative;
+}
+.logo::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #ffa500;
+  bottom: 0;
+  right: -5px;
+}
+.custom-btn {
+  border: none;
+  color: #fff;
+  padding: 8px 20px;
+  border-radius: 4px;
+}
+.trail-btn {
+  background-color: #000;
+}
+.login-btn {
+  background-color: #ffa500;
+}
