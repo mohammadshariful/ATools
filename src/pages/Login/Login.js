@@ -46,15 +46,16 @@ const Login = () => {
                   />
                 </Form.Group>
 
-                <Button variant="dark" className="d-block w-100" type="submit">
+                <Button
+                  variant="dark"
+                  className="d-block w-100 mb-2"
+                  type="submit"
+                >
                   Login
                 </Button>
               </Form>
-              {success && (
-                <p className="text-success mt-2"> Token : {success}</p>
-              )}
-              {error && <p className="text-danger mt-2"> Error : {error}</p>}
-
+              {success && <p className="text-success"> Token : {success}</p>}
+              {error && <p className="text-danger"> Error : {error}</p>}
               <div className="d-flex justify-content-between  flex-wrap mt-2">
                 <Form.Check
                   className="pe-3"
